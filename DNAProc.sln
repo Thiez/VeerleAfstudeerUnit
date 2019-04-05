@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNAProc", "DNAProc\DNAProc.csproj", "{BF6423F6-CFAA-47AA-918E-FBDF8FDD175A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadFASTQ", "ReadFASTQ\ReadFASTQ.csproj", "{A36550B7-5822-49C4-BDE7-05AE203B5E8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeadOrAlivePaper", "DeadOrAlivePaper\DeadOrAlivePaper.csproj", "{D9DA6DF4-24F4-4442-A9A6-10F80594891F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF6423F6-CFAA-47AA-918E-FBDF8FDD175A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF6423F6-CFAA-47AA-918E-FBDF8FDD175A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF6423F6-CFAA-47AA-918E-FBDF8FDD175A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF6423F6-CFAA-47AA-918E-FBDF8FDD175A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A36550B7-5822-49C4-BDE7-05AE203B5E8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A36550B7-5822-49C4-BDE7-05AE203B5E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A36550B7-5822-49C4-BDE7-05AE203B5E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A36550B7-5822-49C4-BDE7-05AE203B5E8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9DA6DF4-24F4-4442-A9A6-10F80594891F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9DA6DF4-24F4-4442-A9A6-10F80594891F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9DA6DF4-24F4-4442-A9A6-10F80594891F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9DA6DF4-24F4-4442-A9A6-10F80594891F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

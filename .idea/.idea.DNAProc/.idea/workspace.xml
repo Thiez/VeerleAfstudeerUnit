@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="633128aa-2c15-42dd-adba-9281ecc63ce7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DNAProc.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNAProc/DNAProc.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DNAProc/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadFASTQ/WarrantyVoids/FastQ/FastQSequence.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadFASTQ/WarrantyVoids/FastQ/FastQStreamReader.cs" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DNAProc/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+              <folding>
+                <marker date="1554490843244" expanded="true" signature="6:166" ph="..." />
+                <marker date="1554490843244" expanded="true" signature="185:688" ph="{...}" />
+                <marker date="1554490843244" expanded="true" signature="205:686" ph="{...}" />
+                <marker date="1554490843244" expanded="true" signature="257:680" ph="{...}" />
+                <marker date="1554490843244" expanded="true" signature="593:670" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DeadOrAlivePaper/WarrantyVoids/DeadOrAlive/BarcodeDatabase.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="800">
+              <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+              <folding>
+                <marker date="1554491309194" expanded="true" signature="6:151" ph="..." />
+                <marker date="1554491309194" expanded="true" signature="205:2067" ph="{...}" />
+                <marker date="1554491309194" expanded="true" signature="240:2065" ph="{...}" />
+                <marker date="1554491309194" expanded="true" signature="346:833" ph="{...}" />
+                <marker date="1554491309194" expanded="true" signature="862:946" ph="{...}" />
+                <marker date="1554491309194" expanded="true" signature="1022:2059" ph="{...}" />
+                <marker date="1554491309194" expanded="true" signature="1418:2023" ph="{...}" />
+                <marker date="1554491309194" expanded="true" signature="1540:2007" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6CFCCEBD-0B9A-498F-BF47-688690CA5A4E/01/96f31338/Enum.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="641">
+              <caret line="238" column="6" selection-start-line="238" selection-start-column="6" selection-end-line="238" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6CFCCEBD-0B9A-498F-BF47-688690CA5A4E/96/a485677d/ExceptionDispatchInfo.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1800">
+              <caret line="90" column="35" selection-start-line="90" selection-start-column="35" selection-end-line="90" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ReadFASTQ/WarrantyVoids/FastQ/FastQStreamReader.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+              <folding>
+                <marker date="1554489893286" expanded="true" signature="6:90" ph="..." />
+                <marker date="1554489893286" expanded="true" signature="131:1251" ph="{...}" />
+                <marker date="1554489893286" expanded="true" signature="138:212" ph="///  ... " />
+                <marker date="1554489893286" expanded="true" signature="261:1249" ph="{...}" />
+                <marker date="1554489893286" expanded="true" signature="362:410" ph="{...}" />
+                <marker date="1554489893286" expanded="true" signature="441:492" ph="{...}" />
+                <marker date="1554489893286" expanded="true" signature="544:1243" ph="{...}" />
+                <marker date="1554489893286" expanded="true" signature="579:1233" ph="{...}" />
+                <marker date="1554489893286" expanded="true" signature="1042:1218" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ReadFASTQ/WarrantyVoids/FastQ/FastQSequence.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+              <folding>
+                <marker date="1554488964354" expanded="true" signature="39:686" ph="{...}" />
+                <marker date="1554488964354" expanded="true" signature="72:684" ph="{...}" />
+                <marker date="1554488964354" expanded="true" signature="87:201" ph="/// Gets or sets a header containing information about this stream. ... " />
+                <marker date="1554488964354" expanded="true" signature="262:343" ph="///  ... " />
+                <marker date="1554488964354" expanded="true" signature="406:481" ph="///  ... " />
+                <marker date="1554488964354" expanded="true" signature="544:634" ph="///  ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/DNAProc/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ReadFASTQ/WarrantyVoids/FastQ/FastQStreamReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ReadFASTQ/WarrantyVoids/FastQ/FastQSequence.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DeadOrAlivePaper/WarrantyVoids/DeadOrAlive/BarcodeDatabase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6CFCCEBD-0B9A-498F-BF47-688690CA5A4E/96/a485677d/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6CFCCEBD-0B9A-498F-BF47-688690CA5A4E/01/96f31338/Enum.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ReadFASTQ/Class1.cs" />
+        <option value="$PROJECT_DIR$/ReadFASTQ/WarrantyVoids/FastQ/FastQEntry.cs" />
+        <option value="$PROJECT_DIR$/ReadFASTQ/WarrantyVoids/FastQ/FastQSequence.cs" />
+        <option value="$PROJECT_DIR$/ReadFASTQ/WarrantyVoids/FastQ/FastQStreamReader.cs" />
+        <option value="$PROJECT_DIR$/DeadOrAlivePaper/Class1.cs" />
+        <option value="$PROJECT_DIR$/DNAProc/Program.cs" />
+        <option value="$PROJECT_DIR$/DeadOrAlivePaper/WarrantyVoids/DeadOrAlive/BarcodeDatabase.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="3840" />
+    <option name="y" value="64" />
+    <option name="width" value="2160" />
+    <option name="height" value="3776" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DNAProc" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DNAProc" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="DeadOrAlivePaper" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DNAProc" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="DeadOrAlivePaper" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="WarrantyVoids" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DNAProc" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="DeadOrAlivePaper" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="WarrantyVoids" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="DeadOrAlive" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DNAProc" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="DNAProc" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DNAProc" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ReadFASTQ" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DNAProc" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ReadFASTQ" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="WarrantyVoids" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DNAProc" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ReadFASTQ" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="WarrantyVoids" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="FastQ" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/DNAProc/bin/Debug/netcoreapp2.1/DNAProc.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DNAProc" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/DNAProc/DNAProc.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+      <browser url="http://localhost:5000" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="633128aa-2c15-42dd-adba-9281ecc63ce7" name="Default Changelist" comment="" />
+      <created>1554488610225</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554488610225</updated>
+      <workItem from="1554488612874" duration="3300000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3300000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="3840" y="64" width="2160" height="3776" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Build" weight="0.3299645" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299645" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39989075" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DeadOrAlivePaper/WarrantyVoids/DeadOrAlive/BarcodeDatabase.cs</url>
+          <line>43</line>
+          <properties documentPath="$PROJECT_DIR$/DeadOrAlivePaper/WarrantyVoids/DeadOrAlive/BarcodeDatabase.cs" initialLine="43">
+            <startOffsets>
+              <option value="1498" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2009" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ReadFASTQ/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadFASTQ/WarrantyVoids/FastQ/FastQSequence.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+          <folding>
+            <marker date="1554488964354" expanded="true" signature="39:686" ph="{...}" />
+            <marker date="1554488964354" expanded="true" signature="72:684" ph="{...}" />
+            <marker date="1554488964354" expanded="true" signature="87:201" ph="/// Gets or sets a header containing information about this stream. ... " />
+            <marker date="1554488964354" expanded="true" signature="262:343" ph="///  ... " />
+            <marker date="1554488964354" expanded="true" signature="406:481" ph="///  ... " />
+            <marker date="1554488964354" expanded="true" signature="544:634" ph="///  ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadFASTQ/WarrantyVoids/FastQ/FastQStreamReader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+          <folding>
+            <marker date="1554489893286" expanded="true" signature="6:90" ph="..." />
+            <marker date="1554489893286" expanded="true" signature="131:1251" ph="{...}" />
+            <marker date="1554489893286" expanded="true" signature="138:212" ph="///  ... " />
+            <marker date="1554489893286" expanded="true" signature="261:1249" ph="{...}" />
+            <marker date="1554489893286" expanded="true" signature="362:410" ph="{...}" />
+            <marker date="1554489893286" expanded="true" signature="441:492" ph="{...}" />
+            <marker date="1554489893286" expanded="true" signature="544:1243" ph="{...}" />
+            <marker date="1554489893286" expanded="true" signature="579:1233" ph="{...}" />
+            <marker date="1554489893286" expanded="true" signature="1042:1218" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeadOrAlivePaper/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DNAProc/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding>
+            <marker date="1554490843244" expanded="true" signature="6:166" ph="..." />
+            <marker date="1554490843244" expanded="true" signature="185:688" ph="{...}" />
+            <marker date="1554490843244" expanded="true" signature="205:686" ph="{...}" />
+            <marker date="1554490843244" expanded="true" signature="257:680" ph="{...}" />
+            <marker date="1554490843244" expanded="true" signature="593:670" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6CFCCEBD-0B9A-498F-BF47-688690CA5A4E/96/a485677d/ExceptionDispatchInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="90" column="35" selection-start-line="90" selection-start-column="35" selection-end-line="90" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6CFCCEBD-0B9A-498F-BF47-688690CA5A4E/01/96f31338/Enum.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="238" column="6" selection-start-line="238" selection-start-column="6" selection-end-line="238" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeadOrAlivePaper/WarrantyVoids/DeadOrAlive/BarcodeDatabase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+          <folding>
+            <marker date="1554491309194" expanded="true" signature="6:151" ph="..." />
+            <marker date="1554491309194" expanded="true" signature="205:2067" ph="{...}" />
+            <marker date="1554491309194" expanded="true" signature="240:2065" ph="{...}" />
+            <marker date="1554491309194" expanded="true" signature="346:833" ph="{...}" />
+            <marker date="1554491309194" expanded="true" signature="862:946" ph="{...}" />
+            <marker date="1554491309194" expanded="true" signature="1022:2059" ph="{...}" />
+            <marker date="1554491309194" expanded="true" signature="1418:2023" ph="{...}" />
+            <marker date="1554491309194" expanded="true" signature="1540:2007" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
