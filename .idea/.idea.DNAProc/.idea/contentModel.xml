@@ -11,7 +11,7 @@
         <e p="Program.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
+          <e p="Release" t="Include">
             <e p="netcoreapp2.1" t="Include">
               <e p="DNAProc.AssemblyInfo.cs" t="Include" />
             </e>
@@ -24,11 +24,12 @@
         <e p="WarrantyVoids" t="Include">
           <e p="DeadOrAlive" t="Include">
             <e p="BarcodeDatabase.cs" t="Include" />
+            <e p="Reordering.cs" t="Include" />
           </e>
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
+          <e p="Release" t="Include">
             <e p="netcoreapp2.1" t="Include">
               <e p="DeadOrAlivePaper.AssemblyInfo.cs" t="Include" />
             </e>
@@ -49,7 +50,7 @@
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
+          <e p="Release" t="Include">
             <e p="netcoreapp2.1" t="Include">
               <e p="ReadFASTQ.AssemblyInfo.cs" t="Include" />
             </e>

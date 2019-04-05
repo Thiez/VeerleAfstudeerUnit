@@ -4,10 +4,9 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using DeadOrAlivePaper.WarrantyVoids.DeadOrAlive;
+using MoreLinq;
 using ReadFASTQ.WarrantyVoids.DNA;
 using ReadFASTQ.WarrantyVoids.FastQ;
-
-//#define TEST_RUN
 
 namespace DNAProc
 {
@@ -15,7 +14,7 @@ namespace DNAProc
     {
         async static Task Main(string[] args)
         {
-#if TEST_RUN
+#if DEBUG
             var head1 = new FastQStreamReader("../Data/testfileR1.fastq");
             var head2 = new FastQStreamReader("../Data/testfileR2.fastq");
 #else
@@ -28,8 +27,8 @@ namespace DNAProc
             var barcodes = await BarcodeDatabase.Load("../Data/forward_T_split_map.txt");
             var barcodeDict = barcodes.ToDictionary(b => b.BarcodeSequence, b => b);
 
-            var primers = barcodes.SelectMany(b => new[] {b.LinkerPrimerSequence, b.ReversePrimer}).Distinct()
-                .Select(t => new PrimerScanner(t, 2)).ToList();
+            var primers = barcodes.DistinctBy(b => b.LinkerPrimerSequence)
+                .Select(b => (new PrimerScanner(b.LinkerPrimerSequence, 2), new PrimerScanner(b.ReversePrimer, 2))).ToList();
             var timer = new Stopwatch();
             timer.Start();
 
@@ -38,15 +37,17 @@ namespace DNAProc
             int counter = 0;
             int expectedMax = 8413098;
             
-            foreach (var value in heads)
+            foreach (var value in heads
+                .Select(d => DNAUtil.FindPrimer(d.Head1, d.Head2, primers))
+                /*.Where(m => m.valid)*/)
             {
                 counter++;
                 if (counter % 250000 == 0)
                 {
                     Console.WriteLine($"[{(counter*1.0)/expectedMax:P}] {(matches+nomatch)/(timer.ElapsedMilliseconds / 1000.0)}s/sec");
                 }
-                var primer = primers.Select(p => (Primer: p, Match: p.Match(value.Head1.Sequence))).FirstOrDefault(m => m.Match != null);
-                if (primer.Match != null)
+                
+                if (value.valid)
                 {
                     //Console.WriteLine($"Matched primer {primer.Primer.Primer} on location {primer.Match.Location}.");
                     matches++;

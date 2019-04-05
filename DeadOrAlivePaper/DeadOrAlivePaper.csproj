@@ -8,4 +8,8 @@
       <ProjectReference Include="..\ReadFASTQ\ReadFASTQ.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="morelinq" Version="3.1.1" />
+    </ItemGroup>
+
 </Project>

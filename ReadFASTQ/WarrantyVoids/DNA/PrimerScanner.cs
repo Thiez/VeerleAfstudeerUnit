@@ -1,3 +1,5 @@
+using ReadFASTQ.WarrantyVoids.FastQ;
+
 namespace ReadFASTQ.WarrantyVoids.DNA
 {
     public class PrimerScanner
@@ -26,10 +28,11 @@ namespace ReadFASTQ.WarrantyVoids.DNA
         /// <summary>
         ///     Matches DNA with the primer.
         /// </summary>
-        /// <param name="dna">The DNA to search for.</param>
+        /// <param name="sequence">The DNA to search for.</param>
         /// <returns>A primer if found, or null if none is found.</returns>
-        public PrimerMatch Match(string dna)
+        public PrimerMatch Match(FastQSequence sequence)
         {
+            var dna = sequence.Sequence;
             for (int i = 0; i < (dna.Length - Primer.Length); i++)
             {
                 int errorCount = 0;
