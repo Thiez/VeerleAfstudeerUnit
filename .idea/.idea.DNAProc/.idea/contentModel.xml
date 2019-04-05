@@ -38,6 +38,10 @@
       <e p="ReadFASTQ" t="IncludeRecursive">
         <e p="ReadFASTQ.csproj" t="IncludeRecursive" />
         <e p="WarrantyVoids" t="Include">
+          <e p="DNA" t="Include">
+            <e p="DNAUtil.cs" t="Include" />
+            <e p="PrimerScanner.cs" t="Include" />
+          </e>
           <e p="FastQ" t="Include">
             <e p="FastQSequence.cs" t="Include" />
             <e p="FastQStreamReader.cs" t="Include" />

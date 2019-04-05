@@ -8,33 +8,30 @@ namespace ReadFASTQ.WarrantyVoids.FastQ
     /// <summary>
     ///     A reader to read FASTQ-files.
     /// </summary>
-    public class FastQStreamReader : IDisposable
+    public class FastQStreamReader : IEnumerable<FastQSequence>
     {
-        private TextReader reader;
+        /// <summary>
+        ///     Gets the name of the file this stream reads from.
+        /// </summary>
+        public string Path { get; }
         
-        public FastQStreamReader(TextReader input)
+        public FastQStreamReader(string path)
         {
-            reader = input;
+            Path = path;
         }
 
-        public void Dispose()
+        public IEnumerator<FastQSequence> GetEnumerator()
         {
-            reader?.Dispose();
-        }
-
-        public IEnumerable<FastQSequence> Values()
-        {
+            var fileReader = File.OpenText(Path);
             while (true)
             {
-                var header = reader.ReadLine();
-                var sequence = reader.ReadLine();
-                var optional = reader.ReadLine();
-                var quality = reader.ReadLine();
-                if (header == null ||
-                    sequence == null ||
-                    optional == null ||
-                    quality == null)
-                    yield break;
+                var header = fileReader.ReadLine();
+                var sequence = fileReader.ReadLine();
+                var optional = fileReader.ReadLine();
+                var quality = fileReader.ReadLine();
+                
+                if ((header ?? sequence ?? optional ?? quality) == null) break;
+                
                 yield return new FastQSequence
                 {
                     Header = header,
@@ -43,6 +40,12 @@ namespace ReadFASTQ.WarrantyVoids.FastQ
                     Quality = quality
                 };
             }
+            fileReader.Close();
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
         }
     }
 }
