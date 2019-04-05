@@ -28,7 +28,7 @@ namespace DNAProc
             var barcodeDict = barcodes.ToDictionary(b => b.BarcodeSequence, b => b);
 
             var primers = barcodes.DistinctBy(b => b.LinkerPrimerSequence)
-                .Select(b => (new PrimerScanner(b.LinkerPrimerSequence, 2), new PrimerScanner(b.ReversePrimer, 2))).ToList();
+                .Select(b => (new PrimerScanner(b.LinkerPrimerSequence, 1), new PrimerScanner(b.ReversePrimer, 1))).ToList();
             var timer = new Stopwatch();
             timer.Start();
 
@@ -39,7 +39,7 @@ namespace DNAProc
             
             foreach (var value in heads
                 .Select(d => DNAUtil.FindPrimer(d.Head1, d.Head2, primers))
-                /*.Where(m => m.valid)*/)
+                .Where(m => m.valid))
             {
                 counter++;
                 if (counter % 250000 == 0)
@@ -57,6 +57,7 @@ namespace DNAProc
                     //Console.WriteLine($"No match!");
                     nomatch++;
                 }
+                Console.WriteLine($"Match: {value.forwardMatch.Location}/{value.forwardMatch.Errors} : {value.reverseMatch.Location}/{value.reverseMatch.Errors} : {(value.hasBeenReversed ? 1 : 0)} : {value.forward.Header}");
             }
             
             timer.Stop();
