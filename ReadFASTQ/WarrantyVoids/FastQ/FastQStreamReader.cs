@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -10,15 +9,15 @@ namespace ReadFASTQ.WarrantyVoids.FastQ
     /// </summary>
     public class FastQStreamReader : IEnumerable<FastQSequence>
     {
-        /// <summary>
-        ///     Gets the name of the file this stream reads from.
-        /// </summary>
-        public string Path { get; }
-        
         public FastQStreamReader(string path)
         {
             Path = path;
         }
+
+        /// <summary>
+        ///     Gets the name of the file this stream reads from.
+        /// </summary>
+        public string Path { get; }
 
         public IEnumerator<FastQSequence> GetEnumerator()
         {
@@ -29,9 +28,12 @@ namespace ReadFASTQ.WarrantyVoids.FastQ
                 var sequence = fileReader.ReadLine();
                 var optional = fileReader.ReadLine();
                 var quality = fileReader.ReadLine();
-                
-                if ((header ?? sequence ?? optional ?? quality) == null) break;
-                
+
+                if ((header ?? sequence ?? optional ?? quality) == null)
+                {
+                    break;
+                }
+
                 yield return new FastQSequence
                 {
                     Header = header,
@@ -40,6 +42,7 @@ namespace ReadFASTQ.WarrantyVoids.FastQ
                     Quality = quality
                 };
             }
+
             fileReader.Close();
         }
 

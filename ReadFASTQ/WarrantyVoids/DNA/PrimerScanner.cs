@@ -14,14 +14,14 @@ namespace ReadFASTQ.WarrantyVoids.DNA
             Primer = primer;
             ErrorBound = error;
         }
-        
+
         /// <summary>
-        /// Gets the value this matcher searches for.
+        ///     Gets the value this matcher searches for.
         /// </summary>
         public string Primer { get; }
-        
+
         /// <summary>
-        /// Gets the amount of errors allowed within the match.
+        ///     Gets the amount of errors allowed within the match.
         /// </summary>
         public int ErrorBound { get; }
 
@@ -30,42 +30,52 @@ namespace ReadFASTQ.WarrantyVoids.DNA
         /// </summary>
         /// <param name="sequence">The DNA to search for.</param>
         /// <returns>A primer if found, or null if none is found.</returns>
-        public PrimerMatch Match(FastQSequence sequence)
+        public bool TryMatch(FastQSequence sequence, out PrimerMatch result)
         {
             var dna = sequence.Sequence;
-            for (int i = 0; i < (dna.Length - Primer.Length); i++)
+            for (var i = 0; i < dna.Length - Primer.Length; i++)
             {
-                int errorCount = 0;
-                for (int j = 0; j < Primer.Length; j++)
+                var errorCount = 0;
+                for (var j = 0; j < Primer.Length; j++)
                 {
                     if (dna[i + j] != Primer[j])
+                    {
                         errorCount++;
+                    }
+
                     if (errorCount > ErrorBound)
+                    {
                         break;
+                    }
                 }
+
                 if (errorCount <= ErrorBound)
-                    return new PrimerMatch(i, errorCount);
+                {
+                    result = new PrimerMatch(i, errorCount);
+                    return true;
+                }
             }
 
-            return null;
+            result = default;
+            return false;
         }
 
         /// <summary>
-        /// A match within a primer.
+        ///     A match within a primer.
         /// </summary>
-        public class PrimerMatch
+        public readonly struct PrimerMatch
         {
             internal PrimerMatch(int location, int errors)
             {
                 Location = location;
                 Errors = errors;
             }
-            
+
             /// <summary>
             ///     Gets the index of the match, measured from the beginning of the string.
             /// </summary>
             public int Location { get; }
-            
+
             /// <summary>
             ///     Gets the amount of errors found.
             /// </summary>
